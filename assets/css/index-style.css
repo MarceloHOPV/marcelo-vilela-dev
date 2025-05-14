@@ -1,0 +1,77 @@
+/* Barra lateral */
+body {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    color:white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 23px;
+    background-color: #ADA59A;
+}
+
+aside {
+    height: 100vh;
+    width: 300px;
+    background-color: #550C20;
+    border-radius: 1px;
+}
+
+.profile {
+    align-items: center;
+    padding: 60px;
+}
+
+.profile img{
+    align-items: center;
+    width: 155px;
+    height: 135px;
+    max-width: 200px;
+    max-height: 200px;
+    border-radius: 50%;
+}
+
+.profile h1 {
+    font-size: 25px;
+    padding-top: 8px;
+    margin: 0%;
+    align-items: center;
+}
+
+nav li{
+    display: block;
+    margin: 0;
+    margin-bottom: 30px;
+    background-color: #6A353F; 
+    border-radius: 20px;
+    width: 200px;
+    height: 45px;
+}
+
+nav li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    display: block;
+}
+
+/* Main */
+
+
+main {
+    flex: 1;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #ADA59A;
+}
+main .content-box {
+    background-color: white;
+    border-radius: 15px;
+    padding: 0px;
+    background-color: rgba(255, 255, 255, 0.09);
+}
+
+main h1 {
+    font-size: 45px;
+    padding: 65px;
+    padding-left: 120px;
+}
