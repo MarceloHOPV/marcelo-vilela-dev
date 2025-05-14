@@ -17,10 +17,11 @@ aside {
 }
 
 .profile {
-    background-color: #6A353F;
+    
+    background-color: #550C20;
     border-radius: 70px;
     align-items: center;
-    padding: 45px;
+    padding: 21px;
     margin: 30px;
     margin-bottom: 30px;
     padding-bottom: 10px;
@@ -28,6 +29,7 @@ aside {
 }
 
 .profile img{
+    border: 2px solid white;
     align-items: center;
     width: 155px;
     height: 135px;
@@ -45,6 +47,7 @@ aside {
 }
 
 nav li{
+    border: 2px solid white;
     display: block;
     margin: 0;
     margin-bottom: 30px;
