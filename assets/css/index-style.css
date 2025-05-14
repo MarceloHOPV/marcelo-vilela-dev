@@ -83,5 +83,11 @@ main .content-box {
 main h1 {
     font-size: 45px;
     padding: 65px;
-    padding-left: 120px;
+    padding-left: 100px;
+}
+
+main h2 {
+    font-size: 30px;
+    padding: 20px;
+    padding-left: 150px;
 }
