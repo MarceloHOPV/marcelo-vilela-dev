@@ -18,12 +18,13 @@ aside {
 
 .profile {
     background-color: #6A353F;
-    border-radius: 60px;
+    border-radius: 70px;
     align-items: center;
-    padding: 50px;
-    margin: 20px;
-    margin-bottom:0px;
-    padding-bottom: 40px;
+    padding: 45px;
+    margin: 30px;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+    padding-top: 30px;
 }
 
 .profile img{
@@ -32,7 +33,7 @@ aside {
     height: 135px;
     max-width: 200px;
     max-height: 200px;
-    border-radius: 50%;
+    border-radius: 40%;
 }
 
 .profile h1 {
