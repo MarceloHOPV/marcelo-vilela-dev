@@ -27,16 +27,19 @@ function type() {
         element.textContent = currentPhrase.substring(0, charIndex++);
     }
 
-    if (!isDeleting && charIndex === currentPhrase.length) {
+    if (!isDeleting && charIndex === currentPhrase.length+1) {
         isDeleting = true;
         setTimeout(type, pauseBetween);
-    } else if (isDeleting && charIndex === 0) {
+    } else if (isDeleting && charIndex === 5) {
         isDeleting = false;
         phraseIndex = (phraseIndex + 1) % phrases.length;
         setTimeout(type, 500);
     } else {
         setTimeout(type, isDeleting ? typingSpeed / 2 : typingSpeed);
     }
+}
+function toggleTheme() {
+  document.body.classList.toggle('dark-theme');
 }
 
 type();

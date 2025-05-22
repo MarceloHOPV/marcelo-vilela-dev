@@ -1,4 +1,22 @@
 /* Barra lateral */
+:root {
+    --cor-botões-barra-lateral: #6A353F;
+    --cor-barra-lateral: #550C20;
+    --text-color: white;
+    --background-color: #ADA59A;
+}
+
+.dark-theme {
+    --cor-botões-barra-lateral: #4D1504;
+    --cor-barra-lateral: #260A02;
+    --text-color: white;
+    --background-color: #26140F;
+}
+
+body, main, aside, .content-box, nav li, nav li a {
+    transition: background-color 0.3s, color 0.3s;
+}
+
 body {
     display: flex;
     margin: 0;
@@ -6,19 +24,19 @@ body {
     color:white;
     font-family: 'Poppins', sans-serif;
     font-size: 23px;
-    background-color: #ADA59A;
+    background-color: var(--background-color);
 }
 
 aside {
     height: 100vh;
     width: 300px;
-    background-color: #550C20;
+    background-color: var(--cor-barra-lateral);
     border-radius: 1px;
 }
 
 .profile {
     
-    background-color: #550C20;
+    background-color: var(--cor-barra-lateral);
     border-radius: 70px;
     align-items: center;
     padding: 0px;
@@ -29,7 +47,7 @@ aside {
 }
 
 .profile img{
-    border: 2px solid white;
+    border: 2px solid var(--text-color);
     align-items: center;
     width: 225px;
     height: 150px;
@@ -47,11 +65,11 @@ aside {
 }
 
 nav li{
-    border: 2px solid white;
+    border: 2px solid var(--text-color);
     display: block;
     margin: 0;
     margin-bottom: 30px;
-    background-color: #6A353F; 
+    background-color: var(--cor-botões-barra-lateral); 
     border-radius: 20px;
     width: 200px;
     height: 45px;
@@ -59,7 +77,7 @@ nav li{
 
 nav li a{
     text-decoration: none;
-    color: white;
+    color: var(--text-color);
     padding: 10px;
     display: block;
 }
@@ -71,7 +89,7 @@ main {
     flex: 1;
     padding-left: 50px;
     padding-right: 50px;
-    background-color: #ADA59A;
+    background-color: var(--background-color);
 }
 main .content-box {
     background-color: white;
@@ -83,11 +101,22 @@ main .content-box {
 main h1 {
     font-size: 45px;
     padding: 65px;
-    padding-left: 100px;
+    padding-left: 80px;
 }
 
 main h2 {
     font-size: 30px;
     padding: 20px;
-    padding-left: 150px;
+    padding-left: 110px;
+}
+
+.botao-tema{
+    color: var(--text-color);
+    
+    padding: 20px;
+    margin: 20px;
+    margin-left: 1350px;
+    margin-right: 0px;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.09);
 }
