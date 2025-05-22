@@ -35,7 +35,7 @@ aside {
     height: 150px;
     max-width: 300px;
     max-height: 200px;
-    border-radius: 45%;
+    border-radius: 100%;
 }
 
 .profile h1 {
