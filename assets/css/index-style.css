@@ -35,13 +35,10 @@ aside {
 }
 
 .profile {
-    
-    background-color: var(--cor-barra-lateral);
-    border-radius: 70px;
-    align-items: center;
+    border-radius: 100%;
     padding: 0px;
     margin: 30px;
-    margin-bottom: 30px;
+    padding-left: 30px;
     padding-bottom: 10px;
     padding-top: 30px;
 }
@@ -53,13 +50,20 @@ aside {
     height: 150px;
     max-width: 300px;
     max-height: 200px;
-    border-radius: 100%;
+}
+
+.profile-image-container {  
+    width: 150px;
+    height: 150px;
+    overflow: hidden; /* corta as bordas da imagem */
+    border-radius: 50%;
+    border: 3px solid var(--text-color);
 }
 
 .profile h1 {
     font-size: 20px;
     padding-top: 10px;
-    padding-left: 50px;
+    padding-left: 15px;
     margin: 0%;
     align-items: center;
 }
