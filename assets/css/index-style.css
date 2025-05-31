@@ -96,6 +96,10 @@ main {
     background-color: var(--background-color);
 }
 main .content-box {
+    padding: 0px;
+    margin: 0px;
+    padding-top: 0px;
+    margin-top: -15px;
     background-color: white;
     border-radius: 15px;
     padding: 0px;
@@ -113,6 +117,12 @@ main h2 {
     padding: 20px;
     padding-left: 110px;
 }
+main p {
+    font-size: 26px;
+    padding-left: 110px;
+    padding-right: 10px;
+    line-height: 1.6; /* Melhora o espaçamento entre linhas */
+}
 
 .botao-tema{
     color: var(--text-color);
@@ -123,4 +133,25 @@ main h2 {
     margin-right: 0px;
     border-radius: 15px;
     background-color: rgba(255, 255, 255, 0.09);
+}
+
+.social-links {
+  display: flex;
+  gap: 15px;
+  padding: 20px;
+  padding-left: 40px;
+  padding-top: 140px;
+  justify-content: left; 
+}
+
+.social-links img {
+  width: 50px;
+  height: 50px;
+  transition: transform 0.2s, filter 0.2s;
+  cursor: pointer;
+}
+
+.social-links img:hover {
+  transform: scale(1.1);
+  filter: brightness(1.2);
 }
